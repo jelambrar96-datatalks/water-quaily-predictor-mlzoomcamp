@@ -1,0 +1,12 @@
+services:
+
+  web-app:
+    build:
+      context: .
+    volumes:
+      - ./model:/app/model:ro
+    ports:
+      - 9696:9696
+
+
+
